@@ -1,0 +1,52 @@
+.nav {
+    background-color: lavender;
+    border: 1px solid grey;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100vh;
+
+    padding: 8px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+.logo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 20%;
+}
+.logo>img{
+    border-radius: 100%;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    flex: 1 50%;
+    justify-content: space-around;
+}
+.link>a{
+    color: #2b2b2b;
+}
+.link>a:hover{
+    transition-delay: 0.3s;
+    color: #2b2bb2;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    flex:  30%;
+    justify-content: end;
+}
+.user>img{
+    width: 20%;
+    height: 20;
+}
