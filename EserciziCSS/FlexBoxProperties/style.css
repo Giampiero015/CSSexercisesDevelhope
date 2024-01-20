@@ -1,0 +1,55 @@
+body {
+  width: 60em;
+  margin: 0 auto;
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+}
+
+#green {
+  background-color: #8ffda7;
+  order: 3;
+
+  width: 15%;
+}
+
+#orange {
+  background-color: #ffc788;
+  order: 4;
+
+  width: 40%;
+}
+
+#yellow {
+  background-color: #ffff92;
+  order: 1;
+
+  width: 15%;
+}
+
+#red {
+  background-color: #ff919c;
+  order: 2;
+
+  width: 15%;
+}
+
+#blue {
+  background-color: #98d2ff;
+  order: 5;
+
+  width: 15%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  display: block;
+  margin: 1em;
+}
