@@ -1,0 +1,91 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas:"display display display display"
+                        "operator operator operator operator"
+                        "num num num uguale"
+                        "num num num uguale"
+                        "num num num uguale"
+                        "num num num uguale"
+                        "nam punto ac uguale";
+    
+    width: 320px;
+    height: 340px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px gray;
+}
+
+.display{
+    display: grid;
+    grid-area: display;
+    align-items: center;
+    justify-content: end;
+    padding-right: 8px;
+
+    background-color: #394348;
+    color: white;
+    font-size: 24px;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.num{
+    display: grid;
+    
+    align-items: center;
+    justify-content: center;
+    
+
+    background-color: #ecf0f3;
+    border: 1px solid black;
+    font-size: 24px;
+
+    
+}
+.num:nth-child(15){
+    border-bottom-left-radius: 8px;
+}
+
+.operator{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+
+    background-color: #cbd7df;
+    font-size: 24px;
+}
+
+.punto{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid black;
+    background-color: #ecf0f3;
+    font-size: 24px;
+}
+
+.ac{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid black;
+    background-color: #ecf0f3;
+    font-size: 24px;
+}
+
+.uguale{
+    display: grid;
+    grid-area: uguale;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid black;
+    background-color: #ff656e;
+    font-size: 24px;
+    border-bottom-right-radius: 8px;
+}
