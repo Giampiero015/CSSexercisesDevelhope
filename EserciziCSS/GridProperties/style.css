@@ -1,0 +1,53 @@
+body {
+  width: 2000px;
+  height: 1000px;
+  margin: 0 auto;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-template-areas:    "verde verde verde"
+                          "giallo rosso blu"
+                          "arancio arancio blu";
+}
+section {
+  padding: 2em;
+  margin: 1em;
+}
+
+#green {
+  background-color: #8ffda7;
+  grid-area: verde;
+}
+
+#orange {
+  background-color: #ffc788;
+  grid-area: arancio;
+}
+
+#yellow {
+  background-color: #ffff92;
+  grid-area: giallo;
+}
+
+#red {
+  background-color: #ff919c;
+  grid-area: rosso;
+}
+
+#blue {
+  background-color: #98d2ff;
+  grid-area: blu;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  display: block;
+  margin: 1em;
+}
